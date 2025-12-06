@@ -1,0 +1,142 @@
+
+.body{
+    margin: 0;
+}
+
+.app {
+    overflow: hidden;
+}
+/* Định dạng cho footer */
+.footer {
+    padding-top: 16px;
+    max-width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom,#3c4658,#2d3441);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div__container-input{
+    max-width: 600px;
+    padding: 40px 0 31px;
+    margin: 0 auto;
+}
+
+
+.div__input-title{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 22px 20px;
+    text-align: center;
+    margin: 0;
+}
+.div__input{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.div__input-input{
+    width: 80px;
+    height:  50px;
+    border: none;
+    outline: none;
+    font-size: 1.0rem;
+    color: var(--text-color);
+    padding: 0 8px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    flex: 1;
+    align-items: center;
+}
+
+.div__input-btn{
+    background-color: #5bc0de;
+    border: none;
+    width: 70px;
+    height: 51px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    outline: none;
+    margin-top: 7px;
+}
+
+.div__input-btn:hover{
+    background-color: #e05d43;
+    cursor: pointer;
+}
+
+
+.footer__statement{
+    margin-top: 10px;
+    font-weight: 300;
+    padding-bottom: 2%;
+    color: #fff;
+}
+/* Định dạng cho toast */
+.toast {
+    visibility: hidden;
+    width: 250px;
+    height: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    font-size: 17px;
+}
+#toast{
+    position: fixed;
+    top: 32px;
+    right: 32px;
+   
+}
+.toast.show {
+    visibility: visible;
+    animation: slideInLeft ease .3s, fadeOut linear 1s 3s forwards;
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+    to {
+        opacity: 1;     
+        transform: translateX(calc(0));
+    }
+}
+
+@keyframes fadeOut{
+    to{
+        opacity: 0;
+    }
+}
+
+.footer__com{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer__com-link{
+    text-decoration: none;
+    color: #fff;
+    margin: 2% 4%;
+}
