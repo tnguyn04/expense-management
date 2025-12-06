@@ -23,10 +23,14 @@
 
 ![alt text](https://github.com/tnguyn04/expense-management/blob/4d2ca3731ad536ac915465a779546841de6566dd/expense_management/screenshots/Screenshot%20(486).png)
 
+![alt text](https://github.com/tnguyn04/expense-management/blob/97166875706ad2d2012f8513249395ab0251a0f0/expense_management/screenshots/Screenshot%20(492).png)
+
 ### Spending page
 ![alt text](https://github.com/tnguyn04/expense-management/blob/4d2ca3731ad536ac915465a779546841de6566dd/expense_management/screenshots/Screenshot%20(487).png)
 
 ![alt text](https://github.com/tnguyn04/expense-management/blob/4d2ca3731ad536ac915465a779546841de6566dd/expense_management/screenshots/Screenshot%20(488).png)
+
+![alt text](https://github.com/tnguyn04/expense-management/blob/97166875706ad2d2012f8513249395ab0251a0f0/expense_management/screenshots/Screenshot%20(493).png)
 
 ### Budget page
 ![alt text](https://github.com/tnguyn04/expense-management/blob/4d2ca3731ad536ac915465a779546841de6566dd/expense_management/screenshots/Screenshot%20(489).png)
