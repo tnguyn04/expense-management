@@ -11,7 +11,7 @@
 8. Open the project in your browser: [http://localhost/expense_management](http://localhost/expense_management).
 
 ### Test account: 
-- Email: nguyennn1701@gmail.com
+- Email: `nguyennn1701@gmail.com`
 - Password: 11111
 
 ## Project screenshots
