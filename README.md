@@ -1,4 +1,4 @@
-# Team Project Management 
+# Expense Management 
 ## How to Run the Project
 
 1. **Download ZIP** from GitHub and extract it.
